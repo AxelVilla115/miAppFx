@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.Insets?>
+<VBox xmlns:fx="[http://javafx.com/fxml](http://javafx.com/fxml)" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: #333333;">
+    <children>
+        <VBox>
+            <padding>
+                <Insets top="20" bottom="20"></Insets>
+            </padding>
+        </VBox>
+        <StackPane>
+            <Rectangle width="300" height="200"
+                       fill="#0D2A52"
+                       stroke="#398570"
+                       strokeWidth="5.0"
+                       arcWidth="20.0" arcHeight="20.0" />
+
+            <Circle radius="50.0"
+                    fill="#FFFFFF"
+                    stroke="#0D2A52"
+                    strokeWidth="3.0"
+                    strokeDashArray="10.0, 5.0" />
+
+            <VBox alignment="CENTER" spacing="20">
+                <children>
+                    <Rectangle width="100" height="100" fill="RED" stroke="BLACK" strokeWidth="2" />
+                    <Circle radius="40" fill="YELLOW" stroke="ORANGE" strokeWidth="4" />
+                </children>
+            </VBox>
+        </StackPane>
+        <VBox>
+            <padding>
+                <Insets top="20" bottom="20"></Insets>
+            </padding>
+        </VBox>
+        <StackPane>
+            <Rectangle width="300" height="500"
+                       fill="#757575"
+                       stroke="#000000"
+                       strokeWidth="3.0"
+                       arcWidth="20.0" arcHeight="20.0" />
+            <VBox alignment="CENTER" spacing="20">
+                <children>
+                    <Circle radius="40" fill="RED" stroke="#FF9494" strokeWidth="10" />
+                    <Circle radius="40" fill="#FFDE17" stroke="#FFFDBD" strokeWidth="3" />
+                    <Circle radius="40" fill="GREEN" stroke="#5CFF77" strokeWidth="3" />
+                </children>
+            </VBox>
+        </StackPane>
+    </children>
+</VBox>
