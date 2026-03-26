@@ -25,7 +25,7 @@
             <center>
                 <HBox alignment="CENTER_LEFT" spacing="10">
                     <padding>
-                        <Insets left="60" right="60"/>
+                        <Insets left="40" right="40"/>
                     </padding>
                     <children>
                         <Label text="Nombre: [Tu Nombre]" style="-fx-font-size: 16px;"/>
@@ -37,7 +37,7 @@
             <bottom>
                 <HBox alignment="CENTER_RIGHT" spacing="15">
                     <padding>
-                        <Insets top="15" bottom="15" right="20"/>
+                        <Insets top="60" bottom="30" right="200"/>
                     </padding>
                     <children>
                         <Button text="Más Información" />
